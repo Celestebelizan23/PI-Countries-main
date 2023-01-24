@@ -1,0 +1,10 @@
+#PaginadoPaginado{
+    border-radius: 5px;
+    border-color: rgb(169, 252, 255);
+    background: #4fb3d4d3;
+    color: hsl(0, 0%, 98%);
+    margin: 2px;
+    margin-block-end: 10px;
+    font-size: 12px
+    
+}

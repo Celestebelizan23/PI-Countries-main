@@ -1,0 +1,63 @@
+#DetailDiv {
+    background-image: url(https://www.wallpapertip.com/wmimgs/18-185689_aesthetic-map.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 0px;
+    padding: 250px;
+  }
+  #imagen {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    text-align: justify;
+    left: 600px;
+  }
+  
+  #BotonBack {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    border: 2px solid #ffffff62;
+    background:  #4fb3d4;
+    left: 50%;
+  }
+  #BotonBack:hover {
+    background: #fff;
+    color: #292929;
+    border: 2px solid #4fb3d441;
+  }
+  #DetailCard {
+    color:#000000c2; 
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #4fb3d4;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 5%;
+  }
+  #titulo {
+    color: #ffffff;
+    text-shadow:2px 5px 5px#000000e1;
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-style: italic;
+  }
+  #activityCard {
+    background-color: hsla(0, 0%, 0%, 0.86);
+    margin-bottom: 50%px;
+    width: 40%;
+    border-radius: 20px;
+    color: #222527;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-size: x-large;
+   justify-items: normal;
+  }
