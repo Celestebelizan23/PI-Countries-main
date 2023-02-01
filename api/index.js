@@ -21,6 +21,8 @@
 
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
+require('dotenv').config();
+const{PORT} = process.env;
 const axios= require ('axios');
 
 async function getCountries(){
@@ -41,9 +43,9 @@ async function getCountries(){
 
 //Syncing all the models at once.
 conn.sync({ force: true }).then(() => {//porque va true y no false?
-  server.listen(3001, () => {
+  server.listen(process.env.PORT, () => {
     getCountries()
-    console.log('%s listening at 3001'); // eslint-disable-line no-console
+    console.log('%s listening at', process.env.PORT); // eslint-disable-line no-console
   });
 });
 

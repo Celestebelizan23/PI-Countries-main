@@ -4,6 +4,8 @@ import LandingPage from "./components/LandingPage";
 import Home from "./components/Home";
 import ActivitiesCreate from "./components/ActivitiesCreate";
 import Details from "./components/Details";
+import axios from 'axios';
+axios.defaults.baseURL= "http://localhost:3001/countries";
 function App() {
   return (
     <BrowserRouter>
