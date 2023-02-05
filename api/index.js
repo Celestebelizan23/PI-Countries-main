@@ -42,11 +42,12 @@ async function getCountries(){
 }
 
 //Syncing all the models at once.
-conn.sync({ force: true }).then(() => {//porque va true y no false?
-  server.listen(process.env.PORT, () => {
+conn.sync({ force: true }).then(() => {
+  server.listen(3001, () => {
     getCountries()
-    console.log('%s listening at', process.env.PORT); // eslint-disable-line no-console
+    console.log('%s listening at 3001'); // eslint-disable-line no-console
   });
 });
+
 
 
