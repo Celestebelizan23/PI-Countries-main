@@ -62,16 +62,6 @@ export function getDetail(id) {
     }
   };
 }
-
-// export const getDetail = (id)=>{
-//   return async (dispatch) => {
-//     return fetch(`http://localhost:3001/countries/${id}`)
-//     .then( res => res.json())
-//     .then(info => dispatch({type: 'GET_DETAILS', payload:info}))
-//   }
-// }
-
-
 //_________________________________________________FILTROS___________________________________________
 
 export function filterCountriesByContinents(payload) {
