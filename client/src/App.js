@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import ActivitiesCreate from "./components/ActivitiesCreate";
 import Details from "./components/Details";
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001/';
+axios.defaults.baseURL = 'pi-countries-main-production-679b.up.railway.app/';
 function App() {
   return (
     <BrowserRouter>
